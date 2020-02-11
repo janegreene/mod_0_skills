@@ -1,0 +1,14 @@
+table
+
+color (string)
+section_number (integer)
+seat_capacity (integer)
+occupants (integer)
+is_available (boolean)
+height (float)
+
+open(sets occupants to zero)
+dirty(sets is_available to false)
+percent_full (occupants/seat_capacity)
+clean (sets is_available to true)
+move (modifies section_number)
