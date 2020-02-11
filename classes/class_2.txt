@@ -1,0 +1,11 @@
+cup
+
+color (string)
+total_volume (float)
+material (string)
+current_volume (float)
+
+break(sets total_volume to zero)
+refill (total_volume - current_volume = amount to pour)
+spill (current_volume - 2)
+calculate_percent_full (current_volume/total_volume)
