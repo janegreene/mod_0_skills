@@ -1,0 +1,12 @@
+cup
+water glass
+
+color ("clear")
+total_volume (22.2)
+material ("glass")
+current_volume (10.2)
+
+break(sets total_volume to zero)
+refill (22.2 - 10.2 = 12 to pour)
+spill (10.2 - 2 = 8.2)
+calculate_percent_full (10.2 / 22.2 = .46)
