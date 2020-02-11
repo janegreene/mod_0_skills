@@ -1,0 +1,16 @@
+class table
+instance bar top by hostess
+
+
+color ("black")
+section_number (2)
+seat_capacity (4)
+occupants (1)
+is_available (false)
+height (45.5)
+
+open(sets occupants to zero)
+dirty(sets is_available to false)
+percent_full (1/4 =.25)
+clean (sets is_available to true)
+move (1)
